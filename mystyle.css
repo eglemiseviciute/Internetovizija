@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    
+  }
+  
+  .menu ul li{
+      display: inline;
+
+  }
+  .menu{
+      display: flex;
+      justify-content: end;
+      margin-top: -50px;
+
+  }
+  a:link{
+text-decoration: none;
+margin-right:100px ;
+color: black;
+  }
+
+ header{
+      background-color: rgb(250, 244, 244);
+      margin-top: -30px;
+      margin-right: -20px;
+      margin-left: -20px;
+      
+  }
+  .logo h1{
+margin-left: 150px;
+padding-top: 30px;
+font-size: 30px;
+color: rgb(2, 2, 2);
+  }
+  .offers h3{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 10px;
+    margin-left: 130px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    
+  }
+ 
+
+  .bo a{
+    margin-left: 350px;
+    border-radius: 5px;
+    background-color: rgb(160, 8, 8);
+    color: white;
+    padding: 7px 15px 7px 15px;
+    
+  }
+ .grid-item h3{
+   font-size: 30px;
+   color: rgb(160, 8, 8);
+ }
